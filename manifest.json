@@ -1,0 +1,21 @@
+{
+    "name": "John Xavier Portfolio Website",
+    "short_name": "John Xavier",
+    "description": "Portfolio website with skills showcase.",
+    "icons": [
+        {
+            "src": "Images/logo-white-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "Images/logo-white-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": ".",
+    "background_color": "#F5EEDC",
+    "theme_color": "#DD4A48",
+    "display": "standalone"
+}

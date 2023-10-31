@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Xavier</title>
+    <link rel="icon" href="Images/logo-white.svg">
+    <link rel="apple-touch-icon" sizes="128x128" href="Images/logo-white.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="theme-color" content="#DD4A48" />
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="Images/logo.svg" alt="logo image" width="50" height="50">
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+
+        <div class="navbar-links">
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="ProffessionalHistory.html">Professional History</a></li>
+                <li><a href="AcademicHistory.html">Academic History</a></li>
+                <li class="menu-selected"><a href="skills.html">Skills</a></li>
+                <li><a href="Testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1 class="theme-h1">Currency Converter</h1>
+    <div>
+        <div class="converter-form-wrap">
+            <div>
+                <label for="from">From</label>
+                <select class="from" name="from" id="from">
+                    <option value="">Currency</option>
+                    <option value="USD">USD</option>
+                    <option value="AED">AED</option>
+                    <option value="ARS">ARS</option>
+                    <option value="AUD">AUD</option>
+                    <option value="BGN">BGN</option>
+                    <option value="BRL">BRL</option>
+                    <option value="BSD">BSD</option>
+                    <option value="CAD">CAD</option>
+                    <option value="CHF">CHF</option>
+                    <option value="CLP">CLP</option>
+                    <option value="CNY">CNY</option>
+                    <option value="COP">COP</option>
+                    <option value="CZK">CZK</option>
+                    <option value="DKK">DKK</option>
+                    <option value="DOP">DOP</option>
+                    <option value="EGP">EGP</option>
+                    <option value="EUR">EUR</option>
+                    <option value="FJD">FJD</option>
+                    <option value="GBP">GBP</option>
+                    <option value="GTQ">GTQ</option>
+                    <option value="HKD">HKD</option>
+                    <option value="HRK">HRK</option>
+                    <option value="HUF">HUF</option>
+                    <option value="IDR">IDR</option>
+                    <option value="ILS">ILS</option>
+                    <option value="INR">INR</option>
+                    <option value="ISK">ISK</option>
+                    <option value="JPY">JPY</option>
+                    <option value="KRW">KRW</option>
+                    <option value="KZT">KZT</option>
+                    <option value="MVR">MVR</option>
+                    <option value="MXN">MXN</option>
+                    <option value="MYR">MYR</option>
+                    <option value="NOK">NOK</option>
+                    <option value="NZD">NZD</option>
+                    <option value="PAB">PAB</option>
+                    <option value="PEN">PEN</option>
+                    <option value="PHP">PHP</option>
+                    <option value="PKR">PKR</option>
+                    <option value="PLN">PLN</option>
+                    <option value="PYG">PYG</option>
+                    <option value="RON">RON</option>
+                    <option value="RUB">RUB</option>
+                    <option value="SAR">SAR</option>
+                    <option value="SEK">SEK</option>
+                    <option value="SGD">SGD</option>
+                    <option value="THB">THB</option>
+                    <option value="TRY">TRY</option>
+                    <option value="TWD">TWD</option>
+                    <option value="UAH">UAH</option>
+                    <option value="UYU">UYU</option>
+                    <option value="ZAR">ZAR</option>
+                </select>
+            </div>
+            <div>
+                <label for="to">To</label>
+                <select class="to" name="to" id="to">
+                    <option value="">Currency</option>
+                    <option value="USD">USD</option>
+                    <option value="AED">AED</option>
+                    <option value="ARS">ARS</option>
+                    <option value="AUD">AUD</option>
+                    <option value="BGN">BGN</option>
+                    <option value="BRL">BRL</option>
+                    <option value="BSD">BSD</option>
+                    <option value="CAD">CAD</option>
+                    <option value="CHF">CHF</option>
+                    <option value="CLP">CLP</option>
+                    <option value="CNY">CNY</option>
+                    <option value="COP">COP</option>
+                    <option value="CZK">CZK</option>
+                    <option value="DKK">DKK</option>
+                    <option value="DOP">DOP</option>
+                    <option value="EGP">EGP</option>
+                    <option value="EUR">EUR</option>
+                    <option value="FJD">FJD</option>
+                    <option value="GBP">GBP</option>
+                    <option value="GTQ">GTQ</option>
+                    <option value="HKD">HKD</option>
+                    <option value="HRK">HRK</option>
+                    <option value="HUF">HUF</option>
+                    <option value="IDR">IDR</option>
+                    <option value="ILS">ILS</option>
+                    <option value="INR">INR</option>
+                    <option value="ISK">ISK</option>
+                    <option value="JPY">JPY</option>
+                    <option value="KRW">KRW</option>
+                    <option value="KZT">KZT</option>
+                    <option value="MVR">MVR</option>
+                    <option value="MXN">MXN</option>
+                    <option value="MYR">MYR</option>
+                    <option value="NOK">NOK</option>
+                    <option value="NZD">NZD</option>
+                    <option value="PAB">PAB</option>
+                    <option value="PEN">PEN</option>
+                    <option value="PHP">PHP</option>
+                    <option value="PKR">PKR</option>
+                    <option value="PLN">PLN</option>
+                    <option value="PYG">PYG</option>
+                    <option value="RON">RON</option>
+                    <option value="RUB">RUB</option>
+                    <option value="SAR">SAR</option>
+                    <option value="SEK">SEK</option>
+                    <option value="SGD">SGD</option>
+                    <option value="THB">THB</option>
+                    <option value="TRY">TRY</option>
+                    <option value="TWD">TWD</option>
+                    <option value="UAH">UAH</option>
+                    <option value="UYU">UYU</option>
+                    <option value="ZAR">ZAR</option>
+                </select>
+            </div>
+            <div>
+                <label for="amount">Amount</label>
+                <input class="amount" type="text" id="amount" name="amount"><br><br>
+
+            </div>
+            <button class="convert converter-submit" id="button1">Submit</button>
+        </div>
+
+        <div class="converter-results-wrapper">
+            <p>Exchange Rate: <span id="exchangeRateLabel"></span></p>
+            <h1 class="theme-h2">Converted Amount: <span id="c1"></span></h1>
+            <div class="converter-date-wrapper">
+                <p>Last updated: <span id="lastUpdatedLabel"></span></p>
+                <p>Date: <span id="currentDateLabel"></span></p>
+                <p>Maximum Limit: 100,00,000</p>
+            </div>
+        </div>
+        <!-- <div id="finalAmount" class="text-center">
+
+
+            <h2>Converted Amount :
+                <span id="convertedAmount" style="color:green;">00.00</span>
+            </h2>
+        </div> -->
+
+    </div>
+    <footer>
+        <div class="footer">
+
+            <div class="footer-text-wrapper">
+                <p class="footer-text">John Xavier</p>
+                <p class="footer-text"><a href="mailto:johnxavieroffice@gmail.com">johnxavieroffice@gmail.com</a></p>
+            </div>
+            <div>
+                <a href="https://www.facebook.com/heisJohn/" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/JohnXavierK" class="fa fa-twitter"></a>
+                <a href="https://www.linkedin.com/in/johnxavierk/" class="fa fa-linkedin"></a>
+                <a href="https://www.instagram.com/johnxavierk/" class="fa fa-instagram"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+    <script src="js/CurrencyConverter.js"></script>
+</body>
+
+</html>

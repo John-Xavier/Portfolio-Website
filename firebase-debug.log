@@ -1,0 +1,132 @@
+[debug] [2023-01-18T14:09:44.928Z] ----------------------------------------------------------------------
+[debug] [2023-01-18T14:09:44.930Z] Command:       C:\Users\JOHN\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\JOHN\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase deploy --only hosting
+[debug] [2023-01-18T14:09:44.930Z] CLI Version:   11.19.0
+[debug] [2023-01-18T14:09:44.930Z] Platform:      win32
+[debug] [2023-01-18T14:09:44.930Z] Node Version:  v16.16.0
+[debug] [2023-01-18T14:09:44.937Z] Time:          Wed Jan 18 2023 14:09:44 GMT+0000 (Greenwich Mean Time)
+[debug] [2023-01-18T14:09:44.938Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-18T14:09:45.011Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-18T14:09:45.012Z] > authorizing via signed-in user (johnxavier034@gmail.com)
+[debug] [2023-01-18T14:09:45.012Z] [iam] checking project johnxavier-portfolio for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-01-18T14:09:45.015Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/johnxavier-portfolio:testIamPermissions [none]
+[debug] [2023-01-18T14:09:45.015Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/johnxavier-portfolio:testIamPermissions x-goog-quota-user=projects/johnxavier-portfolio
+[debug] [2023-01-18T14:09:45.015Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/johnxavier-portfolio:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-01-18T14:09:45.278Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/johnxavier-portfolio:testIamPermissions 200
+[debug] [2023-01-18T14:09:45.278Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/johnxavier-portfolio:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-01-18T14:09:45.279Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/johnxavier-portfolio [none]
+[debug] [2023-01-18T14:09:45.562Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/johnxavier-portfolio 200
+[debug] [2023-01-18T14:09:45.562Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/johnxavier-portfolio {"projectId":"johnxavier-portfolio","projectNumber":"400013328148","displayName":"johnxavier-portfolio","name":"projects/johnxavier-portfolio","resources":{"hostingSite":"johnxavier-portfolio"},"state":"ACTIVE","etag":"1_306a0eb4-6231-47d2-b6bd-a8c5daa8e2f4"}
+[info] 
+[info] === Deploying to 'johnxavier-portfolio'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2023-01-18T14:09:45.581Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/johnxavier-portfolio/versions [none]
+[debug] [2023-01-18T14:09:45.581Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/johnxavier-portfolio/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2023-01-18T14:09:46.648Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/johnxavier-portfolio/versions 200
+[debug] [2023-01-18T14:09:46.648Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/johnxavier-portfolio/versions {"name":"projects/400013328148/sites/johnxavier-portfolio/versions/0909a021ec692910","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[johnxavier-portfolio]: beginning deploy... 
+[info] i  hosting[johnxavier-portfolio]: found 77 files in website 
+[debug] [2023-01-18T14:09:46.687Z] [hosting] uploading with 200 concurrency
+[debug] [2023-01-18T14:09:46.707Z] Error: EBUSY: resource busy or locked, open 'C:\Users\JOHN\OneDrive - Staffordshire University\Web Principles\Web Principles Assignment\firebase hosting\website\Images\gude-2023-01-18.log'
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-01-18T14:10:11.966Z] ----------------------------------------------------------------------
+[debug] [2023-01-18T14:10:11.969Z] Command:       C:\Users\JOHN\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\JOHN\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase deploy --only hosting
+[debug] [2023-01-18T14:10:11.969Z] CLI Version:   11.19.0
+[debug] [2023-01-18T14:10:11.969Z] Platform:      win32
+[debug] [2023-01-18T14:10:11.969Z] Node Version:  v16.16.0
+[debug] [2023-01-18T14:10:11.970Z] Time:          Wed Jan 18 2023 14:10:11 GMT+0000 (Greenwich Mean Time)
+[debug] [2023-01-18T14:10:11.970Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-18T14:10:12.040Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-18T14:10:12.041Z] > authorizing via signed-in user (johnxavier034@gmail.com)
+[debug] [2023-01-18T14:10:12.041Z] [iam] checking project johnxavier-portfolio for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-01-18T14:10:12.043Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/johnxavier-portfolio:testIamPermissions [none]
+[debug] [2023-01-18T14:10:12.043Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/johnxavier-portfolio:testIamPermissions x-goog-quota-user=projects/johnxavier-portfolio
+[debug] [2023-01-18T14:10:12.044Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/johnxavier-portfolio:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-01-18T14:10:12.721Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/johnxavier-portfolio:testIamPermissions 200
+[debug] [2023-01-18T14:10:12.722Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/johnxavier-portfolio:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-01-18T14:10:12.722Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/johnxavier-portfolio [none]
+[debug] [2023-01-18T14:10:12.993Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/johnxavier-portfolio 200
+[debug] [2023-01-18T14:10:12.993Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/johnxavier-portfolio {"projectId":"johnxavier-portfolio","projectNumber":"400013328148","displayName":"johnxavier-portfolio","name":"projects/johnxavier-portfolio","resources":{"hostingSite":"johnxavier-portfolio"},"state":"ACTIVE","etag":"1_306a0eb4-6231-47d2-b6bd-a8c5daa8e2f4"}
+[info] 
+[info] === Deploying to 'johnxavier-portfolio'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2023-01-18T14:10:13.000Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/johnxavier-portfolio/versions [none]
+[debug] [2023-01-18T14:10:13.000Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/johnxavier-portfolio/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2023-01-18T14:10:14.015Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/johnxavier-portfolio/versions 200
+[debug] [2023-01-18T14:10:14.015Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/johnxavier-portfolio/versions {"name":"projects/400013328148/sites/johnxavier-portfolio/versions/1d124183b82e4e05","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[johnxavier-portfolio]: beginning deploy... 
+[info] i  hosting[johnxavier-portfolio]: found 77 files in website 
+[debug] [2023-01-18T14:10:14.054Z] [hosting] uploading with 200 concurrency
+[debug] [2023-01-18T14:10:14.071Z] Error: EBUSY: resource busy or locked, open 'C:\Users\JOHN\OneDrive - Staffordshire University\Web Principles\Web Principles Assignment\firebase hosting\website\Images\gude-2023-01-18.log'
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-01-18T14:10:55.475Z] ----------------------------------------------------------------------
+[debug] [2023-01-18T14:10:55.477Z] Command:       C:\Users\JOHN\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\JOHN\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase deploy --only hosting
+[debug] [2023-01-18T14:10:55.477Z] CLI Version:   11.19.0
+[debug] [2023-01-18T14:10:55.477Z] Platform:      win32
+[debug] [2023-01-18T14:10:55.478Z] Node Version:  v16.16.0
+[debug] [2023-01-18T14:10:55.478Z] Time:          Wed Jan 18 2023 14:10:55 GMT+0000 (Greenwich Mean Time)
+[debug] [2023-01-18T14:10:55.479Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-18T14:10:55.550Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-18T14:10:55.551Z] > authorizing via signed-in user (johnxavier034@gmail.com)
+[debug] [2023-01-18T14:10:55.551Z] [iam] checking project johnxavier-portfolio for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-01-18T14:10:55.553Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/johnxavier-portfolio:testIamPermissions [none]
+[debug] [2023-01-18T14:10:55.553Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/johnxavier-portfolio:testIamPermissions x-goog-quota-user=projects/johnxavier-portfolio
+[debug] [2023-01-18T14:10:55.553Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/johnxavier-portfolio:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-01-18T14:10:55.818Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/johnxavier-portfolio:testIamPermissions 200
+[debug] [2023-01-18T14:10:55.818Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/johnxavier-portfolio:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-01-18T14:10:55.819Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/johnxavier-portfolio [none]
+[debug] [2023-01-18T14:10:56.092Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/johnxavier-portfolio 200
+[debug] [2023-01-18T14:10:56.093Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/johnxavier-portfolio {"projectId":"johnxavier-portfolio","projectNumber":"400013328148","displayName":"johnxavier-portfolio","name":"projects/johnxavier-portfolio","resources":{"hostingSite":"johnxavier-portfolio"},"state":"ACTIVE","etag":"1_306a0eb4-6231-47d2-b6bd-a8c5daa8e2f4"}
+[info] 
+[info] === Deploying to 'johnxavier-portfolio'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2023-01-18T14:10:56.100Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/johnxavier-portfolio/versions [none]
+[debug] [2023-01-18T14:10:56.100Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/johnxavier-portfolio/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2023-01-18T14:10:56.629Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/johnxavier-portfolio/versions 200
+[debug] [2023-01-18T14:10:56.629Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/johnxavier-portfolio/versions {"name":"projects/400013328148/sites/johnxavier-portfolio/versions/11c42ce6c914bf33","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[johnxavier-portfolio]: beginning deploy... 
+[info] i  hosting[johnxavier-portfolio]: found 77 files in website 
+[debug] [2023-01-18T14:10:56.657Z] [hosting] uploading with 200 concurrency
+[debug] [2023-01-18T14:10:56.673Z] Error: EBUSY: resource busy or locked, open 'C:\Users\JOHN\OneDrive - Staffordshire University\Web Principles\Web Principles Assignment\firebase hosting\website\Images\gude-2023-01-18.log'
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-01-18T14:12:49.216Z] ----------------------------------------------------------------------
+[debug] [2023-01-18T14:12:49.218Z] Command:       C:\Users\JOHN\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\JOHN\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase deploy --only hosting
+[debug] [2023-01-18T14:12:49.218Z] CLI Version:   11.19.0
+[debug] [2023-01-18T14:12:49.218Z] Platform:      win32
+[debug] [2023-01-18T14:12:49.218Z] Node Version:  v16.16.0
+[debug] [2023-01-18T14:12:49.226Z] Time:          Wed Jan 18 2023 14:12:49 GMT+0000 (Greenwich Mean Time)
+[debug] [2023-01-18T14:12:49.226Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-18T14:12:49.311Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-18T14:12:49.312Z] > authorizing via signed-in user (johnxavier034@gmail.com)
+[debug] [2023-01-18T14:12:49.312Z] [iam] checking project johnxavier-portfolio for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-01-18T14:12:49.314Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/johnxavier-portfolio:testIamPermissions [none]
+[debug] [2023-01-18T14:12:49.315Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/johnxavier-portfolio:testIamPermissions x-goog-quota-user=projects/johnxavier-portfolio
+[debug] [2023-01-18T14:12:49.315Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/johnxavier-portfolio:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-01-18T14:12:49.547Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/johnxavier-portfolio:testIamPermissions 200
+[debug] [2023-01-18T14:12:49.547Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/johnxavier-portfolio:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-01-18T14:12:49.548Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/johnxavier-portfolio [none]
+[debug] [2023-01-18T14:12:49.824Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/johnxavier-portfolio 200
+[debug] [2023-01-18T14:12:49.824Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/johnxavier-portfolio {"projectId":"johnxavier-portfolio","projectNumber":"400013328148","displayName":"johnxavier-portfolio","name":"projects/johnxavier-portfolio","resources":{"hostingSite":"johnxavier-portfolio"},"state":"ACTIVE","etag":"1_306a0eb4-6231-47d2-b6bd-a8c5daa8e2f4"}
+[info] 
+[info] === Deploying to 'johnxavier-portfolio'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2023-01-18T14:12:49.830Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/johnxavier-portfolio/versions [none]
+[debug] [2023-01-18T14:12:49.831Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/johnxavier-portfolio/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2023-01-18T14:12:50.897Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/johnxavier-portfolio/versions 200
+[debug] [2023-01-18T14:12:50.897Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/johnxavier-portfolio/versions {"name":"projects/400013328148/sites/johnxavier-portfolio/versions/3dd85f92415a12b0","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[johnxavier-portfolio]: beginning deploy... 
+[info] i  hosting[johnxavier-portfolio]: found 77 files in website 
+[debug] [2023-01-18T14:12:50.954Z] [hosting] uploading with 200 concurrency
+[debug] [2023-01-18T14:12:50.984Z] Error: EBUSY: resource busy or locked, open 'C:\Users\JOHN\OneDrive - Staffordshire University\Web Principles\Web Principles Assignment\firebase hosting\website\Images\gude-2023-01-18.log'
+[error] 
+[error] Error: An unexpected error has occurred.
